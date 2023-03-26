@@ -4,7 +4,8 @@ padding: 0;
 }
 body{
     background-image: url(bg.jpg);
-    width: 100%;
+    background-color: rgb(194, 204, 204);
+    width: auto;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -36,19 +37,78 @@ ul li a:hover{
 background-color: black;
 color: white;
 }
-.heading h1{
-    color: white;
-    font-size: 100px;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.heading {
+    padding: 20px 60px;
 }
-.heading p{
+.heading h1{
+    color: black;
+    font-size: 90px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(201, 224, 245);
+    text-align: center;
+    padding: 5px 0;
+}
+/* .heading p{
     color: white;
     font-size: 40px;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+.data {
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.image{
+    padding-right: 30px;
+}
+
+.data .image img{
+    width: 30vw;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.data .info .data1{
+    /* border: 1px solid black;
+    border-radius: 20px;
+    background-color: white; */
+    padding: 30px;
+}
+
+.data .info .data1 p{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.data .info .count{
+    /* border: 1px solid black;
+    border-radius: 20px;
+    background-color: white; */
+    padding: 30px;
+    display: flex;
+    font-display: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.abc h2 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.abc p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
 }
